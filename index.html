@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bowen</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="#">Strona Główna</a>
+      <a href="#services">Usługi</a>
+      <a href="#contact">Kontakt</a>
+    </nav>
+
+    <header>
+      <div>
+        <h1>Witamy w Spa & Wellness</h1>
+        <p>Odnajdź harmonię ciała i ducha</p>
+        <a href="#services">Nasze usługi</a>
+      </div>
+    </header>
+
+    <section class="services" id="services">
+      <h2>Nasze usługi</h2>
+      <div class="services-container">
+        <div class="service-card" onclick="location.href='massage.html'">
+          <img src="bowen01.avif" alt="Usługa 1" />
+          <h3>Relaksacyjny masaż</h3>
+          <p>Pozwól sobie na chwilę relaksu dzięki profesjonalnemu masażowi.</p>
+        </div>
+        <div class="service-card" onclick="location.href='spa.html'">
+          <img src="bowen02.avif" alt="Usługa 2" />
+          <h3>Spa dla ciała</h3>
+          <p>Odnowa biologiczna i pielęgnacja skóry w naszym spa.</p>
+        </div>
+        <div class="service-card" onclick="location.href='facial.html'">
+          <img src="bowen03.jpg" alt="Usługa 3" />
+          <h3>Zabiegi na twarz</h3>
+          <p>Zadbaj o piękną i zdrową cerę dzięki naszym zabiegom.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Skontaktuj się z nami</h2>
+      <form action="#">
+        <input type="text" placeholder="Twoje imię" required />
+        <input type="email" placeholder="Twój email" required />
+        <textarea placeholder="Wiadomość" rows="5" required></textarea>
+        <button type="submit">Wyślij wiadomość</button>
+      </form>
+    </section>
+  </body>
+</html>
